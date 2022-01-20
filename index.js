@@ -18,3 +18,6 @@ var randomNumber2 = Math.floor(Math.random() * 6) + 1;
 var randomImageSource2 = "images/dice" + randomNumber2 + ".png";//dice1.png - dice6.png
 //skipping the var query selector
 document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);//images/dice1.png - images/dice6.png
+
+
+//declare condition for display
