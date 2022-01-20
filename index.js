@@ -12,4 +12,9 @@ var image1 = document.querySelectorAll("img")[0];
 //giving attribute for every img
 image1.setAttribute("src", randomImageSource);
 console.log(image1);
-//setting up the random number for second dice
+//setting up the random number for second dice and do the same thing above
+var randomNumber2 = Math.floor(Math.random() * 6) + 1;
+
+var randomImageSource2 = "images/dice" + randomNumber2 + ".png";//dice1.png - dice6.png
+//skipping the var query selector
+document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);//images/dice1.png - images/dice6.png
