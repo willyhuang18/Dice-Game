@@ -21,3 +21,7 @@ document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);//im
 
 
 //declare condition for display
+if (randomNumber1 > randomNumber2) {
+    document.querySelector("h1").innerHTML = "🚩 Player 1 Wins!";
+    console.log(document.querySelector("h1").innerHTML);
+  }
